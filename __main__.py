@@ -5,7 +5,7 @@ from datetime import datetime
 WINDOW = 48
 text = {}
 
-bitdeli.set_theme('playground')
+set_theme('playground')
 
 def date(hour):
     return datetime.utcfromtimestamp(hour * 3600).strftime('%B %d, %Y')
